@@ -2,10 +2,11 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
 import resume from "../../resume/resume.pdf";
+
 import { Icon, IconBox, Point, Open, Name, Greet, Root } from "./styles";
 
 const Intro = () => (
-  <Root>
+  <Root id="top">
     <Greet>Hi I'm</Greet>
     <Name>Tony Li,</Name>
     <Open>I am a....</Open>

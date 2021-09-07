@@ -1,14 +1,14 @@
 import React from "react";
-import { Icon, IconBox, Point, Open, Name, Greet, Root } from "./styles";
+import { Point, Open, Root } from "./styles";
 
 const About = () => (
-  <Root>
+  <Root id="about">
     <Open>About</Open>
     <Point>
       I am a junior at Carleton University studying computer science and
       statistics. Currently I am working as an Software Engineer at RBC on the
       Data Protection team. I am building tools to help track fradulent activity
-      within the company. sfdhsdjfhsd
+      within the company.
     </Point>
   </Root>
 );
