@@ -30,7 +30,7 @@ const Experience = () => {
       logo: seed,
       time: "Jan 2021 - May 2021",
       disc: "Implemented user stories into working features. Built out reusable componenents that would be used throughout the whole application. ",
-      tech: ["Typescript", "React", "HTML/CSS", "SQL", "Docker"],
+      tech: ["Typescript", "GraphQL", "React", "HTML/CSS", "SQL", "Docker"],
     },
     {
       company: "iContribute",
