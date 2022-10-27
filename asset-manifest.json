@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a30a6967.chunk.css",
+    "main.js": "/static/js/main.9e8f858f.chunk.js",
+    "main.js.map": "/static/js/main.9e8f858f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d67c1441.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d67c1441.js.map",
+    "static/js/2.9cac8a4b.chunk.js": "/static/js/2.9cac8a4b.chunk.js",
+    "static/js/2.9cac8a4b.chunk.js.map": "/static/js/2.9cac8a4b.chunk.js.map",
+    "static/js/3.e3a9d1bc.chunk.js": "/static/js/3.e3a9d1bc.chunk.js",
+    "static/js/3.e3a9d1bc.chunk.js.map": "/static/js/3.e3a9d1bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a30a6967.chunk.css.map": "/static/css/main.a30a6967.chunk.css.map",
+    "static/js/2.9cac8a4b.chunk.js.LICENSE.txt": "/static/js/2.9cac8a4b.chunk.js.LICENSE.txt",
+    "static/media/iCon.4c426675.png": "/static/media/iCon.4c426675.png",
+    "static/media/innova.ad24e66c.png": "/static/media/innova.ad24e66c.png",
+    "static/media/rbc.ce994e40.png": "/static/media/rbc.ce994e40.png",
+    "static/media/resume.16149b4c.pdf": "/static/media/resume.16149b4c.pdf",
+    "static/media/seedwell.0ff50f67.png": "/static/media/seedwell.0ff50f67.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d67c1441.js",
+    "static/js/2.9cac8a4b.chunk.js",
+    "static/css/main.a30a6967.chunk.css",
+    "static/js/main.9e8f858f.chunk.js"
+  ]
+}
