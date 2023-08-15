@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
-import resume from "../../resume/resume.pdf";
+import resume from "../../resume/Tony_Li_resume.pdf";
 
 import { Icon, IconBox, Point, Open, Name, Greet, Root } from "./styles";
 
@@ -10,9 +10,13 @@ const Intro = () => (
     <Greet>Hi I'm</Greet>
     <Name>Tony Li,</Name>
     <Open>I am a....</Open>
-    <Point>Computer Science student minoring in Statistics,</Point>
-    <Point>Software Developer/Engineer,</Point>
-    <Point>Technology enthusiast.</Point>
+    <Point>Software Engineer with 3 years of experience</Point>
+    <Point>React/Next.js enthusiast</Point>
+    <Point style={{ marginBottom: "1em" }}>
+      Avid Learner always looking to build my development skills
+    </Point>
+    <Open>Currently looking for...</Open>
+    <Point>Full time positions in Software Development/Engineering</Point>
     <IconBox>
       <Icon>
         <a

@@ -1,19 +1,37 @@
-import React, { useState } from "react";
+import React from "react";
 import { Open, Root } from "./styles";
 import Project from "./Project";
 import RBC from "../../img/rbc.png";
 import seed from "../../img/seedwell.png";
 import innova from "../../img/innova.png";
 import iCon from "../../img/iCon.png";
+import IBM from "../../img/ibm.png";
+import fortinet from "../../img/fortinet.png";
 
 const Experience = () => {
-  const [jobs, setJobs] = useState([
+  const jobs = [
+    {
+      company: "Fortinet",
+      title: "Software Engineer",
+      logo: fortinet,
+      time: "April 2023 - Present",
+      disc: "Working on FortiManager, a widely-adopted tool streamlining network security through centralized configuration, monitoring, and troubleshooting of Fortinet devices",
+      tech: ["React", "Typescript", "Git", "Tailwind CSS"],
+    },
+    {
+      company: "IBM",
+      title: "Software Engineer",
+      logo: IBM,
+      time: "Jan 2022 - May 2022",
+      disc: "Collaborated with the QRadar team on the renowned Security information and event management (SIEM) solution, IBM QRadar, to enhance its functionality and performance, ensuring advanced threat detection and comprehensive security insights.",
+      tech: ["React", "Typescript", "GitLab", "SCSS"],
+    },
     {
       company: "Royal Bank of Canada",
       title: "Software Engineer",
       logo: RBC,
-      time: "Augest 2021 - Present",
-      disc: "Working with the Data protection and User Behavioural Anaylsis team to build tools to identify and track fradulent behaviour within the company",
+      time: "Augest 2021 - Jan 2022",
+      disc: "Worked with the Data protection and User Behavioural Anaylsis team to build tools to identify and track fradulent behaviour within the company",
       tech: ["Python", "Flask", "HTML/CSS", "Jinja2", "SQL", "Helios"],
     },
     {
@@ -40,7 +58,7 @@ const Experience = () => {
       disc: "Led the development of the company website https://icontribute.community/. Built out an Nodejs backend with a MongoDB database to help the migration from firebase to MongoDB. Created API documentation for future developers and users ",
       tech: ["Typescript", "React", "HTML/CSS", "MongoDB", "Docker"],
     },
-  ]);
+  ];
   return (
     <Root id="experience">
       <Open>Experience</Open>

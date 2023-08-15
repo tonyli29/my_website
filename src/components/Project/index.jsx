@@ -1,12 +1,11 @@
 import React from "react";
-import { Icon, IconBox, Point, Open, Name, Greet, Root } from "./styles";
+import { Point, Open, Root } from "./styles";
 
 const Project = () => (
   <Root id="project">
     <Open>Projects</Open>
     <Point>
-      Currently under construction, but please feel free to check them out on my
-      resume/github!
+      Currently contructing new portfolio to accomadate everything better!
     </Point>
   </Root>
 );

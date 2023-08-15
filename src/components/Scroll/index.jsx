@@ -3,12 +3,15 @@ import { Link } from "react-scroll";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Root, Button } from "./styles";
 
-const style = { marginLeft: "1em" };
+const style = {
+  marginLeft: "1em",
+  fontSize: "1.5em",
+};
 
 const Scroll = (props) => (
   <Root>
     <Button>
-      <FaArrowAltCircleRight size="2em" />
+      <FaArrowAltCircleRight size="3em" />
       <Link
         activeClass="active"
         to="top"
@@ -22,7 +25,7 @@ const Scroll = (props) => (
       </Link>
     </Button>
     <Button>
-      <FaArrowAltCircleRight size="2em" />
+      <FaArrowAltCircleRight size="3em" />
       <Link
         activeClass="active"
         to="about"
@@ -36,7 +39,7 @@ const Scroll = (props) => (
       </Link>
     </Button>
     <Button>
-      <FaArrowAltCircleRight size="2em" />
+      <FaArrowAltCircleRight size="3em" />
       <Link
         activeClass="active"
         to="experience"
@@ -51,7 +54,7 @@ const Scroll = (props) => (
     </Button>
 
     <Button>
-      <FaArrowAltCircleRight size="2em" />
+      <FaArrowAltCircleRight size="3em" />
       <Link
         activeClass="active"
         to="project"
