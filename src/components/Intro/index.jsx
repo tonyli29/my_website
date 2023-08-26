@@ -32,7 +32,7 @@ const Intro = () => (
         </a>
       </Icon>
       <Icon>
-        <a href="mailto: litony1999c@gmail.com" target="_blank">
+        <a href="mailto: tonyli1999c@gmail.com" target="_blank">
           <FaEnvelope size="3em" />
         </a>
       </Icon>
