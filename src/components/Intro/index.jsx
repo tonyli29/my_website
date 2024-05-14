@@ -10,29 +10,37 @@ const Intro = () => (
     <Greet>Hi I'm</Greet>
     <Name>Tony Li,</Name>
     <Open>I am a....</Open>
-    <Point>Software Engineer with 3 years of experience</Point>
-    <Point>React/Next.js enthusiast</Point>
+    <Point>Masters student at Georgia tech</Point>
+    <Point>Software Engineer with 2 years of experience</Point>
     <Point style={{ marginBottom: "1em" }}>
       Avid Learner always looking to build my development skills
     </Point>
     <Open>Currently looking for...</Open>
-    <Point>Full time positions in Software Development/Engineering</Point>
+    <Point>
+      Full-time/Internship positions in Software Development/Engineering
+    </Point>
+    <Point>in Canada/US</Point>
     <IconBox>
       <Icon>
         <a
           href="https://www.linkedin.com/in/tony-li-2b9745165/"
           target="_blank"
+          rel="noreferrer"
         >
           <FaLinkedin size="3em" />
         </a>
       </Icon>
       <Icon>
-        <a href="https://github.com/tonyli29" target="_blank">
+        <a href="https://github.com/tonyli29" target="_blank" rel="noreferrer">
           <FaGithub size="3em" />
         </a>
       </Icon>
       <Icon>
-        <a href="mailto: tonyli1999c@gmail.com" target="_blank">
+        <a
+          href="mailto: tonyli1999c@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaEnvelope size="3em" />
         </a>
       </Icon>

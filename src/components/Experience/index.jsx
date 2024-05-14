@@ -14,7 +14,7 @@ const Experience = () => {
       company: "Fortinet",
       title: "Software Engineer",
       logo: fortinet,
-      time: "April 2023 - Present",
+      time: "April 2023 - Augest 2023",
       disc: "Working on FortiManager, a widely-adopted tool streamlining network security through centralized configuration, monitoring, and troubleshooting of Fortinet devices",
       tech: ["React", "Typescript", "Git", "Tailwind CSS"],
     },

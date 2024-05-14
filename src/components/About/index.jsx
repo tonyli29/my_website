@@ -5,14 +5,13 @@ const About = () => (
   <Root id="about">
     <Open>About</Open>
     <Point>
-      I am a Software Engineer with deep expertise in React, TypeScript, and
-      Next.js. Over the years, I've consistently delivered effective solutions
-      using these technologies and am confident in my capability to integrate
-      seamlessly into diverse teams. Eager to collaborate at all levels, from
-      fellow engineers to CEOs, I'm actively seeking opportunities to further
-      leverage my skills. Beyond my current expertise, I possess a keen
-      adaptability, ensuring I can swiftly master any new technologies presented
-      to me.
+      I am a Master's student in Computer Science at Georgia Tech, specializing
+      in Machine Learning. With a strong foundation in building and maintaining
+      large-scale web applications, I have gained valuable experience through
+      past internships. My expertise spans a wide range of software development
+      areas, including API development and front-end interface design. I am
+      passionate about leveraging my skills to create innovative and efficient
+      solutions in the tech industry.
     </Point>
   </Root>
 );
